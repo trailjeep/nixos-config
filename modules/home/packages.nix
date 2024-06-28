@@ -8,9 +8,9 @@
     entr                              # perform action when file change
     fd                                # find replacement
     file                              # Show file information 
-    freetube
+    #freetube
     fzf                               # fuzzy finder
-    gimp
+    #gimp
     gnome.aisleriot
     gnome.gnome-mahjongg
     gnome.gnome-sudoku
@@ -18,17 +18,16 @@
     greetd.greetd
     greetd.tuigreet
 
+    #gparted                           # partition manager
     gtrash                            # rm replacement, put deleted files in system trash
     inxi
     plocate
-    libreoffice
-    tor-browser
+    #libreoffice
+    #tor-browser
     ltris
     nitch                             # systhem fetch util
     nix-prefetch-github
-    prismlauncher                     # minecraft launcher
     ripgrep                           # grep replacement
-    #soundwireserver                   # pass audio to android phone
     yad
     yazi                              # terminal file manager
     gnome.zenity
@@ -43,14 +42,12 @@
     selectdefaultapplication		# simple gui to define default applications
     tmatrix
     asciiquarium-transparent
-    #gparted                           # partition manager
     ffmpeg
     imv                               # image viewer
     killall
     libnotify
-    #man-pages	             	  # extra man pages
     mpv                               # video player
-    monophony
+    #monophony
     ncdu                              # disk space
     openssl
     pamixer                           # pulseaudio command line mixer
@@ -72,6 +69,9 @@
     # ???
     # boop-gtk
     # buffer
+    #man-pages	             	  # extra man pages
+    #soundwireserver                   # pass audio to android phone
+
 
   ]);
 }
