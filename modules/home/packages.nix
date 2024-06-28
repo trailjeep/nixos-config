@@ -11,7 +11,10 @@
     gnome.aisleriot
     gnome.gnome-mahjongg
     gnome.gnome-sudoku
-    
+
+    greetd.greetd
+    greetd.tuigreet
+
     gtrash                            # rm replacement, put deleted files in system trash
     inxi
     plocate
