@@ -22,8 +22,12 @@
       };
     };
     theme = {
-      name = "Dracula";
-      package = pkgs.dracula-theme;
+      name = "Catppuccin-Mocha-Compact-Lavender-Dark";
+      package = pkgs.catppuccin-gtk.override {
+        accents = [ "lavender" ];
+        size = "compact";
+        # tweaks = [ "rimless" ];
+        variant = "mocha";
     };
     cursorTheme = {
       name = "Bibata_Cursor";
