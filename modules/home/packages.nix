@@ -14,7 +14,7 @@
     
     gtrash                            # rm replacement, put deleted files in system trash
     inxi
-
+    plocate
     libreoffice
     tor-browser
     ltris
