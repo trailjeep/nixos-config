@@ -1,6 +1,9 @@
 { inputs, pkgs, ... }: 
 {
   home.packages = (with pkgs; [
+    anyrun
+    bc
+    
     eza                               # ls replacement
     entr                              # perform action when file change
     fd                                # find replacement
