@@ -3,7 +3,7 @@
   fonts.fontconfig.enable = true;
   home.packages = [
     pkgs.nerdfonts
-    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "Noto" ]; })
+    (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "IosevkaTerm" "Noto" ]; })
     pkgs.twemoji-color-font
     pkgs.noto-fonts-emoji
   ];
@@ -26,15 +26,15 @@
       package = pkgs.dracula-theme;
     };
     cursorTheme = {
-      name = "Nordzy-cursors";
-      package = pkgs.nordzy-cursor-theme;
+      name = "Bibata_Cursor";
+      package = pkgs.bibata-cursors;
       size = 22;
     };
   };
   
   home.pointerCursor = {
-    name = "Nordzy-cursors";
-    package = pkgs.nordzy-cursor-theme;
+    name = "Bibata_Cursor";
+    package = pkgs.bibata-cursors;
     size = 22;
   };
 }
