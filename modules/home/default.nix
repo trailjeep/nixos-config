@@ -14,7 +14,6 @@
     ++ [(import ./micro.nix)]                     # nano replacement
     ++ [(import ./nvim.nix)]                      # neovim editor
     ++ [(import ./packages.nix)]                  # other packages
-    ++ [(import ./retroarch.nix)]
     ++ [(import ./scripts/scripts.nix)]           # personal scripts
     ++ [(import ./starship.nix)]                  # shell prompt
     ++ [(import ./swaylock.nix)]                  # lock screen
