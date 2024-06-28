@@ -16,6 +16,7 @@
     inxi
 
     libreoffice
+    tor-browser
     ltris
     nitch                             # systhem fetch util
     nix-prefetch-github
@@ -43,6 +44,7 @@
     libnotify
     #man-pages	             	  # extra man pages
     mpv                               # video player
+    monophony
     ncdu                              # disk space
     openssl
     pamixer                           # pulseaudio command line mixer
@@ -52,6 +54,7 @@
     cliphist                          # clipboard manager
     poweralertd
     qalculate-gtk                     # calculator
+    gnome.gnome-calculator
     unzip
     wget
     xdg-utils
@@ -59,5 +62,10 @@
     xfce.thunar-archive-plugin
     xfce.thunar-volman
     inputs.alejandra.defaultPackage.${system}
+
+    # ???
+    # boop-gtk
+    # buffer
+
   ]);
 }
