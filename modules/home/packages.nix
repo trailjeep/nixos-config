@@ -13,6 +13,8 @@
     gnome.gnome-sudoku
     
     gtrash                            # rm replacement, put deleted files in system trash
+    inxi
+
     libreoffice
     ltris
     nitch                             # systhem fetch util
@@ -23,6 +25,10 @@
     yad
     yazi                              # terminal file manager
     gnome.zenity
+
+    # C / C++
+    gcc
+    gnumake
 
     # Python
     python3
